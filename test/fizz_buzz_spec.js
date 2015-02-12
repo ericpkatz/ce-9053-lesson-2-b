@@ -21,14 +21,19 @@ var FizzBuzz = {
        
        var results = [];
        for(var i = start; i <= finish; i++){
-            if(isFizzBuzz(i))
+            if(isFizzBuzz(i)){
                 results.push('FizzBuzz');
-            else if(isFizz(i))
+                continue;
+            }
+            if(isFizz(i)){
                 results.push('Fizz');
-            else if(isBuzz(i))
+                continue;
+            }
+            if(isBuzz(i)){
                 results.push('Buzz');
-            else
-                results.push(i); 
+                continue;
+            }
+            results.push(i); 
        }
        return results;
    } 
