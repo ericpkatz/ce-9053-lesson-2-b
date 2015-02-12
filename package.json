@@ -1,0 +1,28 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "This is an example of Fizz - Buzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericpkatz/ce-9053-lesson-2-b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericpkatz/ce-9053-lesson-2-b/issues"
+  },
+  "homepage": "https://github.com/ericpkatz/ce-9053-lesson-2-b",
+  "devDependencies": {
+    "jasmine": "^2.2.1",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-story-reporter": "^0.3.1"
+  }
+}
